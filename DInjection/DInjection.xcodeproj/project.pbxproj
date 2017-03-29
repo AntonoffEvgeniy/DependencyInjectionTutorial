@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424F2AE8CEB825C3BC3A6CE5 /* Pods_DInjection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74FA4A4BDE5967BAF1D4586 /* Pods_DInjection.framework */; };
 		613A042B1E8C55B60034E863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613A042A1E8C55B60034E863 /* AppDelegate.swift */; };
 		613A042D1E8C55B60034E863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613A042C1E8C55B60034E863 /* ViewController.swift */; };
 		613A04301E8C55B60034E863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613A042E1E8C55B60034E863 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EA61D3005A44341C4184563 /* Pods-DInjection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DInjection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DInjection/Pods-DInjection.debug.xcconfig"; sourceTree = "<group>"; };
 		613A04271E8C55B60034E863 /* DInjection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DInjection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613A042A1E8C55B60034E863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		613A042C1E8C55B60034E863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		613A04311E8C55B60034E863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		613A04341E8C55B60034E863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		613A04361E8C55B60034E863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3A204A19372AAEB6BFD870 /* Pods-DInjection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DInjection.release.xcconfig"; path = "Pods/Target Support Files/Pods-DInjection/Pods-DInjection.release.xcconfig"; sourceTree = "<group>"; };
+		E74FA4A4BDE5967BAF1D4586 /* Pods_DInjection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DInjection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424F2AE8CEB825C3BC3A6CE5 /* Pods_DInjection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A02C714B6E717581E672AA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E74FA4A4BDE5967BAF1D4586 /* Pods_DInjection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		613A041E1E8C55B50034E863 = {
 			isa = PBXGroup;
 			children = (
 				613A04291E8C55B60034E863 /* DInjection */,
 				613A04281E8C55B60034E863 /* Products */,
+				F5961BE323A55799C930058C /* Pods */,
+				5A02C714B6E717581E672AA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = DInjection;
 			sourceTree = "<group>";
 		};
+		F5961BE323A55799C930058C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EA61D3005A44341C4184563 /* Pods-DInjection.debug.xcconfig */,
+				9D3A204A19372AAEB6BFD870 /* Pods-DInjection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 613A04391E8C55B60034E863 /* Build configuration list for PBXNativeTarget "DInjection" */;
 			buildPhases = (
+				85492278BFE2E184A6A2A238 /* [CP] Check Pods Manifest.lock */,
 				613A04231E8C55B50034E863 /* Sources */,
 				613A04241E8C55B50034E863 /* Frameworks */,
 				613A04251E8C55B50034E863 /* Resources */,
+				0434571F63EFDF8CEA70DBCA /* [CP] Embed Pods Frameworks */,
+				C1725194F6CD564584F6BBB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0434571F63EFDF8CEA70DBCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DInjection/Pods-DInjection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85492278BFE2E184A6A2A238 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1725194F6CD564584F6BBB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DInjection/Pods-DInjection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		613A04231E8C55B50034E863 /* Sources */ = {
@@ -256,6 +331,7 @@
 		};
 		613A043A1E8C55B60034E863 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA61D3005A44341C4184563 /* Pods-DInjection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DInjection/Info.plist;
@@ -268,6 +344,7 @@
 		};
 		613A043B1E8C55B60034E863 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3A204A19372AAEB6BFD870 /* Pods-DInjection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DInjection/Info.plist;
