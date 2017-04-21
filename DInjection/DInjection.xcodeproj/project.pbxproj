@@ -20,6 +20,8 @@
 		617C64011EAA48B9003B4029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613A04311E8C55B60034E863 /* Assets.xcassets */; };
 		617C64021EAA48B9003B4029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613A042E1E8C55B60034E863 /* Main.storyboard */; };
 		617C640B1EAA4C9E003B4029 /* TestInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 617C640A1EAA4C9E003B4029 /* TestInfo.plist */; };
+		617C640E1EAA4E04003B4029 /* YahooAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C640D1EAA4E04003B4029 /* YahooAssembly.swift */; };
+		617C64101EAA4F07003B4029 /* TestAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C640F1EAA4F07003B4029 /* TestAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		613A04361E8C55B60034E863 /* YahooInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = YahooInfo.plist; sourceTree = "<group>"; };
 		617C64081EAA48B9003B4029 /* DInjectionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DInjectionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		617C640A1EAA4C9E003B4029 /* TestInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestInfo.plist; sourceTree = "<group>"; };
+		617C640D1EAA4E04003B4029 /* YahooAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooAssembly.swift; sourceTree = "<group>"; };
+		617C640F1EAA4F07003B4029 /* TestAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAssembly.swift; sourceTree = "<group>"; };
 		9D3A204A19372AAEB6BFD870 /* Pods-DInjection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DInjection.release.xcconfig"; path = "Pods/Target Support Files/Pods-DInjection/Pods-DInjection.release.xcconfig"; sourceTree = "<group>"; };
 		E74FA4A4BDE5967BAF1D4586 /* Pods_DInjection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DInjection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,6 +91,7 @@
 		613A04291E8C55B60034E863 /* DInjection */ = {
 			isa = PBXGroup;
 			children = (
+				617C640C1EAA4D1F003B4029 /* Assemblies */,
 				613A042A1E8C55B60034E863 /* AppDelegate.swift */,
 				613A042C1E8C55B60034E863 /* ViewController.swift */,
 				613A042E1E8C55B60034E863 /* Main.storyboard */,
@@ -96,6 +101,15 @@
 				617C640A1EAA4C9E003B4029 /* TestInfo.plist */,
 			);
 			path = DInjection;
+			sourceTree = "<group>";
+		};
+		617C640C1EAA4D1F003B4029 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				617C640D1EAA4E04003B4029 /* YahooAssembly.swift */,
+				617C640F1EAA4F07003B4029 /* TestAssembly.swift */,
+			);
+			path = Assemblies;
 			sourceTree = "<group>";
 		};
 		F5961BE323A55799C930058C /* Pods */ = {
@@ -308,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				613A042D1E8C55B60034E863 /* ViewController.swift in Sources */,
+				617C640E1EAA4E04003B4029 /* YahooAssembly.swift in Sources */,
 				613A042B1E8C55B60034E863 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617C64101EAA4F07003B4029 /* TestAssembly.swift in Sources */,
 				617C63FB1EAA48B9003B4029 /* ViewController.swift in Sources */,
 				617C63FC1EAA48B9003B4029 /* AppDelegate.swift in Sources */,
 			);
