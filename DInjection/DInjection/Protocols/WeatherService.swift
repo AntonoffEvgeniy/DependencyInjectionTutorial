@@ -10,5 +10,5 @@ import Foundation
 
 @objc protocol WeatherService {
     func serviceTitle() -> String
-    func currentWeather() -> Float
+    func currentTemperature() -> Float
 }

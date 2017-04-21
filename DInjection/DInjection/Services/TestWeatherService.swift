@@ -8,12 +8,15 @@
 
 import Foundation
 
+let kTestServiceName = "Test"
+let kTestCurrentTemperature: Float = 13
+
 class TestWeatherService: WeatherService {
     func serviceTitle() -> String {
-        return "Test"
+        return kTestServiceName
     }
     
-    func currentWeather() -> Float {
-        return 20
+    func currentTemperature() -> Float {
+        return kTestCurrentTemperature
     }
 }

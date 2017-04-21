@@ -10,6 +10,7 @@ import UIKit
 
 class RootViewController: UIViewController {
     @IBOutlet weak var serviceTitleLabel: UILabel!
+    @IBOutlet weak var temperatureLabel: UILabel!
     
     public var weatherService: WeatherService!
     var testText = String()
@@ -22,5 +23,7 @@ class RootViewController: UIViewController {
     
     private func setup() {
         serviceTitleLabel.text = weatherService?.serviceTitle()
+        let temp = weatherService.currentTemperature()
+        temperatureLabel.text = "\(temp) °C"
     }
 }

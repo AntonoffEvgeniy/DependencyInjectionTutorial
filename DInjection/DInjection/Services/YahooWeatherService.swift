@@ -8,12 +8,15 @@
 
 import Foundation
 
+let kYahooServiceName = "Yahoo"
+let kYahooCurrentTemperature: Float = 9
+
 class YahooWeatherService: WeatherService {
     func serviceTitle() -> String {
-        return "Yahoo"
+        return kYahooServiceName
     }
     
-    func currentWeather() -> Float {
-        return 10
+    func currentTemperature() -> Float {
+        return kYahooCurrentTemperature
     }
 }
