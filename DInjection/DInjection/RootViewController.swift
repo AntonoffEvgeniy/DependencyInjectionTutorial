@@ -1,26 +1,26 @@
 //
-//  ViewController.swift
+//  RootViewController.swift
 //  DInjection
 //
-//  Created by Evgeniy Antonov on 3/29/17.
+//  Created by Evgeniy Antonov on 4/21/17.
 //  Copyright © 2017 Evgeniy Antonov. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class RootViewController: UIViewController {
     @IBOutlet weak var serviceTitleLabel: UILabel!
     
-    var serviceTitle = String()
+    public var weatherService: WeatherService!
+    var testText = String()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         setup()
     }
     
     private func setup() {
-        serviceTitleLabel.text = serviceTitle
+        serviceTitleLabel.text = weatherService?.serviceTitle()
     }
 }
-

@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		424F2AE8CEB825C3BC3A6CE5 /* Pods_DInjection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74FA4A4BDE5967BAF1D4586 /* Pods_DInjection.framework */; };
 		613A042B1E8C55B60034E863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613A042A1E8C55B60034E863 /* AppDelegate.swift */; };
-		613A042D1E8C55B60034E863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613A042C1E8C55B60034E863 /* ViewController.swift */; };
 		613A04301E8C55B60034E863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613A042E1E8C55B60034E863 /* Main.storyboard */; };
 		613A04321E8C55B60034E863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613A04311E8C55B60034E863 /* Assets.xcassets */; };
 		613A04351E8C55B60034E863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613A04331E8C55B60034E863 /* LaunchScreen.storyboard */; };
-		617C63FB1EAA48B9003B4029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613A042C1E8C55B60034E863 /* ViewController.swift */; };
 		617C63FC1EAA48B9003B4029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613A042A1E8C55B60034E863 /* AppDelegate.swift */; };
 		617C63FE1EAA48B9003B4029 /* Pods_DInjection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74FA4A4BDE5967BAF1D4586 /* Pods_DInjection.framework */; };
 		617C64001EAA48B9003B4029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613A04331E8C55B60034E863 /* LaunchScreen.storyboard */; };
@@ -22,13 +20,20 @@
 		617C640B1EAA4C9E003B4029 /* TestInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 617C640A1EAA4C9E003B4029 /* TestInfo.plist */; };
 		617C640E1EAA4E04003B4029 /* YahooAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C640D1EAA4E04003B4029 /* YahooAssembly.swift */; };
 		617C64101EAA4F07003B4029 /* TestAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C640F1EAA4F07003B4029 /* TestAssembly.swift */; };
+		617C64131EAA505D003B4029 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C64121EAA505D003B4029 /* WeatherService.swift */; };
+		617C64141EAA505D003B4029 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C64121EAA505D003B4029 /* WeatherService.swift */; };
+		617C64171EAA50E0003B4029 /* YahooWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C64161EAA50E0003B4029 /* YahooWeatherService.swift */; };
+		617C64181EAA50E0003B4029 /* YahooWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C64161EAA50E0003B4029 /* YahooWeatherService.swift */; };
+		617C641A1EAA511F003B4029 /* TestWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C64191EAA511F003B4029 /* TestWeatherService.swift */; };
+		617C641B1EAA511F003B4029 /* TestWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C64191EAA511F003B4029 /* TestWeatherService.swift */; };
+		617C641D1EAA5161003B4029 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C641C1EAA5161003B4029 /* RootViewController.swift */; };
+		617C641E1EAA5161003B4029 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617C641C1EAA5161003B4029 /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EA61D3005A44341C4184563 /* Pods-DInjection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DInjection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DInjection/Pods-DInjection.debug.xcconfig"; sourceTree = "<group>"; };
 		613A04271E8C55B60034E863 /* DInjectionYahoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DInjectionYahoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613A042A1E8C55B60034E863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		613A042C1E8C55B60034E863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		613A042F1E8C55B60034E863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		613A04311E8C55B60034E863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		613A04341E8C55B60034E863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +42,10 @@
 		617C640A1EAA4C9E003B4029 /* TestInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestInfo.plist; sourceTree = "<group>"; };
 		617C640D1EAA4E04003B4029 /* YahooAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooAssembly.swift; sourceTree = "<group>"; };
 		617C640F1EAA4F07003B4029 /* TestAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAssembly.swift; sourceTree = "<group>"; };
+		617C64121EAA505D003B4029 /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		617C64161EAA50E0003B4029 /* YahooWeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooWeatherService.swift; sourceTree = "<group>"; };
+		617C64191EAA511F003B4029 /* TestWeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWeatherService.swift; sourceTree = "<group>"; };
+		617C641C1EAA5161003B4029 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		9D3A204A19372AAEB6BFD870 /* Pods-DInjection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DInjection.release.xcconfig"; path = "Pods/Target Support Files/Pods-DInjection/Pods-DInjection.release.xcconfig"; sourceTree = "<group>"; };
 		E74FA4A4BDE5967BAF1D4586 /* Pods_DInjection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DInjection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,9 +100,11 @@
 		613A04291E8C55B60034E863 /* DInjection */ = {
 			isa = PBXGroup;
 			children = (
-				617C640C1EAA4D1F003B4029 /* Assemblies */,
 				613A042A1E8C55B60034E863 /* AppDelegate.swift */,
-				613A042C1E8C55B60034E863 /* ViewController.swift */,
+				617C641C1EAA5161003B4029 /* RootViewController.swift */,
+				617C640C1EAA4D1F003B4029 /* Assemblies */,
+				617C64111EAA502D003B4029 /* Protocols */,
+				617C64151EAA50BE003B4029 /* Services */,
 				613A042E1E8C55B60034E863 /* Main.storyboard */,
 				613A04311E8C55B60034E863 /* Assets.xcassets */,
 				613A04331E8C55B60034E863 /* LaunchScreen.storyboard */,
@@ -110,6 +121,23 @@
 				617C640F1EAA4F07003B4029 /* TestAssembly.swift */,
 			);
 			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		617C64111EAA502D003B4029 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				617C64121EAA505D003B4029 /* WeatherService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		617C64151EAA50BE003B4029 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				617C64161EAA50E0003B4029 /* YahooWeatherService.swift */,
+				617C64191EAA511F003B4029 /* TestWeatherService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		F5961BE323A55799C930058C /* Pods */ = {
@@ -321,8 +349,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				613A042D1E8C55B60034E863 /* ViewController.swift in Sources */,
+				617C64131EAA505D003B4029 /* WeatherService.swift in Sources */,
+				617C64171EAA50E0003B4029 /* YahooWeatherService.swift in Sources */,
+				617C641D1EAA5161003B4029 /* RootViewController.swift in Sources */,
 				617C640E1EAA4E04003B4029 /* YahooAssembly.swift in Sources */,
+				617C641A1EAA511F003B4029 /* TestWeatherService.swift in Sources */,
 				613A042B1E8C55B60034E863 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,8 +362,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617C64141EAA505D003B4029 /* WeatherService.swift in Sources */,
 				617C64101EAA4F07003B4029 /* TestAssembly.swift in Sources */,
-				617C63FB1EAA48B9003B4029 /* ViewController.swift in Sources */,
+				617C64181EAA50E0003B4029 /* YahooWeatherService.swift in Sources */,
+				617C641E1EAA5161003B4029 /* RootViewController.swift in Sources */,
+				617C641B1EAA511F003B4029 /* TestWeatherService.swift in Sources */,
 				617C63FC1EAA48B9003B4029 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

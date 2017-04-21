@@ -10,8 +10,12 @@ import Typhoon
 
 class TestAssembly: TyphoonAssembly {
     open dynamic func viewController() -> AnyObject {
-        return TyphoonDefinition.withClass(ViewController.self, configuration: { (definition) in
-            definition!.injectProperty("serviceTitle", with: "Test example")
+        return TyphoonDefinition.withClass(RootViewController.self, configuration: { (definition) in
+            definition!.injectProperty("weatherService", with: self.weatherService())
         }) as AnyObject
+    }
+    
+    open dynamic func weatherService() -> WeatherService {
+        return TestWeatherService()
     }
 }
