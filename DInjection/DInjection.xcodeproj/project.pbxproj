@@ -13,17 +13,26 @@
 		613A04301E8C55B60034E863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613A042E1E8C55B60034E863 /* Main.storyboard */; };
 		613A04321E8C55B60034E863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613A04311E8C55B60034E863 /* Assets.xcassets */; };
 		613A04351E8C55B60034E863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613A04331E8C55B60034E863 /* LaunchScreen.storyboard */; };
+		617C63FB1EAA48B9003B4029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613A042C1E8C55B60034E863 /* ViewController.swift */; };
+		617C63FC1EAA48B9003B4029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613A042A1E8C55B60034E863 /* AppDelegate.swift */; };
+		617C63FE1EAA48B9003B4029 /* Pods_DInjection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74FA4A4BDE5967BAF1D4586 /* Pods_DInjection.framework */; };
+		617C64001EAA48B9003B4029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613A04331E8C55B60034E863 /* LaunchScreen.storyboard */; };
+		617C64011EAA48B9003B4029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613A04311E8C55B60034E863 /* Assets.xcassets */; };
+		617C64021EAA48B9003B4029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613A042E1E8C55B60034E863 /* Main.storyboard */; };
+		617C640B1EAA4C9E003B4029 /* TestInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 617C640A1EAA4C9E003B4029 /* TestInfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EA61D3005A44341C4184563 /* Pods-DInjection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DInjection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DInjection/Pods-DInjection.debug.xcconfig"; sourceTree = "<group>"; };
-		613A04271E8C55B60034E863 /* DInjection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DInjection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		613A04271E8C55B60034E863 /* DInjectionYahoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DInjectionYahoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613A042A1E8C55B60034E863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		613A042C1E8C55B60034E863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		613A042F1E8C55B60034E863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		613A04311E8C55B60034E863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		613A04341E8C55B60034E863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		613A04361E8C55B60034E863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613A04361E8C55B60034E863 /* YahooInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = YahooInfo.plist; sourceTree = "<group>"; };
+		617C64081EAA48B9003B4029 /* DInjectionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DInjectionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		617C640A1EAA4C9E003B4029 /* TestInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestInfo.plist; sourceTree = "<group>"; };
 		9D3A204A19372AAEB6BFD870 /* Pods-DInjection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DInjection.release.xcconfig"; path = "Pods/Target Support Files/Pods-DInjection/Pods-DInjection.release.xcconfig"; sourceTree = "<group>"; };
 		E74FA4A4BDE5967BAF1D4586 /* Pods_DInjection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DInjection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -34,6 +43,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				424F2AE8CEB825C3BC3A6CE5 /* Pods_DInjection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617C63FD1EAA48B9003B4029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617C63FE1EAA48B9003B4029 /* Pods_DInjection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +78,8 @@
 		613A04281E8C55B60034E863 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				613A04271E8C55B60034E863 /* DInjection.app */,
+				613A04271E8C55B60034E863 /* DInjectionYahoo.app */,
+				617C64081EAA48B9003B4029 /* DInjectionTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,7 +92,8 @@
 				613A042E1E8C55B60034E863 /* Main.storyboard */,
 				613A04311E8C55B60034E863 /* Assets.xcassets */,
 				613A04331E8C55B60034E863 /* LaunchScreen.storyboard */,
-				613A04361E8C55B60034E863 /* Info.plist */,
+				613A04361E8C55B60034E863 /* YahooInfo.plist */,
+				617C640A1EAA4C9E003B4029 /* TestInfo.plist */,
 			);
 			path = DInjection;
 			sourceTree = "<group>";
@@ -91,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		613A04261E8C55B50034E863 /* DInjection */ = {
+		613A04261E8C55B50034E863 /* DInjectionYahoo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 613A04391E8C55B60034E863 /* Build configuration list for PBXNativeTarget "DInjection" */;
+			buildConfigurationList = 613A04391E8C55B60034E863 /* Build configuration list for PBXNativeTarget "DInjectionYahoo" */;
 			buildPhases = (
 				85492278BFE2E184A6A2A238 /* [CP] Check Pods Manifest.lock */,
 				613A04231E8C55B50034E863 /* Sources */,
@@ -106,9 +125,29 @@
 			);
 			dependencies = (
 			);
-			name = DInjection;
+			name = DInjectionYahoo;
 			productName = DInjection;
-			productReference = 613A04271E8C55B60034E863 /* DInjection.app */;
+			productReference = 613A04271E8C55B60034E863 /* DInjectionYahoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		617C63F81EAA48B9003B4029 /* DInjectionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617C64051EAA48B9003B4029 /* Build configuration list for PBXNativeTarget "DInjectionTest" */;
+			buildPhases = (
+				617C63F91EAA48B9003B4029 /* [CP] Check Pods Manifest.lock */,
+				617C63FA1EAA48B9003B4029 /* Sources */,
+				617C63FD1EAA48B9003B4029 /* Frameworks */,
+				617C63FF1EAA48B9003B4029 /* Resources */,
+				617C64031EAA48B9003B4029 /* [CP] Embed Pods Frameworks */,
+				617C64041EAA48B9003B4029 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DInjectionTest;
+			productName = DInjection;
+			productReference = 617C64081EAA48B9003B4029 /* DInjectionTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +179,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				613A04261E8C55B50034E863 /* DInjection */,
+				613A04261E8C55B50034E863 /* DInjectionYahoo */,
+				617C63F81EAA48B9003B4029 /* DInjectionTest */,
 			);
 		};
 /* End PBXProject section */
@@ -150,9 +190,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617C640B1EAA4C9E003B4029 /* TestInfo.plist in Resources */,
 				613A04351E8C55B60034E863 /* LaunchScreen.storyboard in Resources */,
 				613A04321E8C55B60034E863 /* Assets.xcassets in Resources */,
 				613A04301E8C55B60034E863 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617C63FF1EAA48B9003B4029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617C64001EAA48B9003B4029 /* LaunchScreen.storyboard in Resources */,
+				617C64011EAA48B9003B4029 /* Assets.xcassets in Resources */,
+				617C64021EAA48B9003B4029 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +223,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DInjection/Pods-DInjection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		617C63F91EAA48B9003B4029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		617C64031EAA48B9003B4029 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DInjection/Pods-DInjection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		617C64041EAA48B9003B4029 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DInjection/Pods-DInjection-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		85492278BFE2E184A6A2A238 /* [CP] Check Pods Manifest.lock */ = {
@@ -213,6 +309,15 @@
 			files = (
 				613A042D1E8C55B60034E863 /* ViewController.swift in Sources */,
 				613A042B1E8C55B60034E863 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617C63FA1EAA48B9003B4029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617C63FB1EAA48B9003B4029 /* ViewController.swift in Sources */,
+				617C63FC1EAA48B9003B4029 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +439,7 @@
 			baseConfigurationReference = 0EA61D3005A44341C4184563 /* Pods-DInjection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DInjection/Info.plist;
+				INFOPLIST_FILE = DInjection/YahooInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EA.DInjection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -347,7 +452,33 @@
 			baseConfigurationReference = 9D3A204A19372AAEB6BFD870 /* Pods-DInjection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DInjection/Info.plist;
+				INFOPLIST_FILE = DInjection/YahooInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EA.DInjection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		617C64061EAA48B9003B4029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA61D3005A44341C4184563 /* Pods-DInjection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DInjection/TestInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EA.DInjection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		617C64071EAA48B9003B4029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3A204A19372AAEB6BFD870 /* Pods-DInjection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DInjection/TestInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EA.DInjection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,13 +498,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		613A04391E8C55B60034E863 /* Build configuration list for PBXNativeTarget "DInjection" */ = {
+		613A04391E8C55B60034E863 /* Build configuration list for PBXNativeTarget "DInjectionYahoo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				613A043A1E8C55B60034E863 /* Debug */,
 				613A043B1E8C55B60034E863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617C64051EAA48B9003B4029 /* Build configuration list for PBXNativeTarget "DInjectionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617C64061EAA48B9003B4029 /* Debug */,
+				617C64071EAA48B9003B4029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
